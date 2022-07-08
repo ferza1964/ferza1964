@@ -1,3 +1,4 @@
+#fecha:08/07/2022
 import logging
 import azure.functions as func
 from azure.core.credentials import AzureKeyCredential
