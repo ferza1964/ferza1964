@@ -1,0 +1,51 @@
+.sui-layout-header {
+    background-color: #0078d7;
+    color: #eee;
+}
+.sui-search-box__submit {
+    background: linear-gradient(rgb(60, 226, 102), rgb(34, 151, 57));
+    letter-spacing: 0.1em;
+}
+.sui-search-box__submit:hover {
+    background: linear-gradient(rgb(34, 151, 57), rgb(60, 226, 102));
+}
+
+.pager-style {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+.search-bar {
+    margin: 1em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.row {
+    display: flex;
+    width: 100%
+}
+
+.row::after {
+    /* display: block;*/
+    clear: both;
+    content: "";
+    }
+
+.col-1 {width: 8.33%};
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+* {
+    box-sizing: border-box;
+    }

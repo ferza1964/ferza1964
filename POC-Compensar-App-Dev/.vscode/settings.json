@@ -1,0 +1,13 @@
+{
+    "azureFunctions.projectSubpath": "search-website\\api",
+    "azureFunctions.deploySubpath": "search-website\\api",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#501C29",
+        "titleBar.activeBackground": "#6F273A",
+        "titleBar.activeForeground": "#FEFBFC"
+    }
+}
